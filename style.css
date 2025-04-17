@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Black';
+    src: url(fonts/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url(fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Italic';
+    src: url(fonts/PlayfairDisplay-.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url(fonts/PlayfairDisplay-.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu-Light';
+    src: url(fonts/Ubuntu-Light.ttf);
+}
+
+body {
+    margin: 0 68px;
+    margin-top: 71px;
+}
+
+.nav_bar {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.nav_links, .link, a {
+    float: right;
+    display: flex;
+    gap: 120px;
+    list-style: none;
+    font-family: 'PlayfairDisplay-Regular';
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header_img {
+    margin-top: 73px;
+}
+
+.main {
+    padding: 0 70px;
+    margin-top: 80px;
+}
+
+.text_01 {
+    font-family: 'Ubuntu-Light';
+    font-size: 14pt;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.text_02 {
+    font-family: 'PlayfairDisplay-Regular';
+    color: #626262;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.text_03 {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 14pt;
+    line-height: 24px;
+    color: #626262;
+    padding-top: 35px;
+}
+
+.text_04 {
+    font-family: 'Ubuntu-Light';
+    font-size: 14pt;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    padding-top: 55px;
+}
+
+.img_grid_text {
+    margin-top: 135px;
+}
+
+.grid_row_1{
+    display: flex;
+    gap: 60px;
+}
+
+.grid_text {
+    font-family: 'Ubuntu-Light';
+    font-size: 14pt;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    padding: 30px 0 0;
+}
+
+.grig_header {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 30pt;
+    color: #626262;
+    padding: 30px 0 40px;
+}
+
+.grid_paragraph {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 14pt;
+    color: #626262;
+    padding-bottom: 135px;
+}
+
+.Sign_up {
+    padding: 75px ;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.Sign_up_heading {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 30pt;
+}
+
+.email_input {
+    margin-top: 85px;
+}
+
+#email {
+    border: none;
+    padding: 15px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 14pt;
+    background-color: #f0f0f0;
+}
+
+.img_icon {
+    padding-left: 170px;
+}
+
+.hr {
+    margin: 0 250px;
+    border: 1px solid #626262;
+}
+
+.grid_row_01{
+    margin-top: 135px;
+    display: flex;
+    gap: 60px;
+}
+
+button {
+    border: none;
+    border: 2px solid #272727;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    padding: 0 70px;
+    margin-top: 135px;
+    overflow: hidden;
+}
+
+.a {
+    font-size: 14px;
+    font-family: 'PlayfairDisplay-Regular';
+    gap: 20px;
+    display: flex;
+    float: left;
+}
+
+.Privacy {
+    font-weight: 700;
+}
+
+.b {
+    font-size: 14px;
+    font-family: 'PlayfairDisplay-Regular';
+    display: flex;
+    gap: 20px;
+    float: right;
+}
+
+#fa #tw #in {
+    gap: 20px;
+}
